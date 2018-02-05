@@ -1,0 +1,175 @@
+﻿body
+{
+	background-color: #777;
+}
+#navbarmenu
+{
+   position:fixed;
+   top:0;
+   width: 100%;
+}
+#mainnav
+{
+  right:190px; 
+}
+.layout
+{
+	background-image: url("rockback.jpg");
+	background-color: #777;
+	width:100%;
+    height:750px;
+	margin-top:115px;
+	border-top: 3px solid black;
+}
+#name {
+    position: relative;
+    margin-top: 3px;
+    padding:10px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Play', sans-serif;
+    color: #5cb85c;
+    font-weight: bold;
+    font-size: 60px;
+    right:50px;
+}
+
+.sr-only 
+{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.nav-buttons
+{
+    position: absolute;
+    display: inline;
+    top: 0px;
+	right: 300px;
+    margin-top: 48px;
+    margin-right: 0px;
+    float: right;
+}
+.main-section {
+    background-color: #ebebeb;
+    display: block;
+    max-width: 650px;
+    height: 650px;
+    left: 110px;
+    padding-right: 0px;
+    margin-top: 90px;
+    margin-left: 130px;
+    margin-bottom: 0;
+}
+h2
+{
+	position: relative;
+	margin-left: 25px;
+	margin-top:0px;
+	margin-bottom: 30px;
+	padding-top: 25px;
+		
+}
+#webpic
+{
+	position:relative;
+	width:168px;
+	height:164px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 0px;
+    margin-right: 0px;
+
+}
+
+
+#aboutb
+{
+    margin-top: 2px;
+	padding: 12px;
+}
+#portfoliob 
+{
+    margin-top: 2px;
+    padding: 12px;
+}
+#portfoliod {
+    margin-top: 2px;
+    padding: 12px;
+}
+
+#contactb
+{
+    margin-top: 2px;
+    padding: 12px;
+}
+
+#contactinput 
+{
+    
+    padding: 20px;
+}
+.sidebar 
+{
+    position: fixed;
+	background-color: #ebebeb;
+    top: 50px;
+    right: 390px;
+	height: 160px;
+    max-width: 270px;
+    margin-top: 40px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right:0px;
+	border: 3px solid grey;
+}
+
+.sidetext {
+    margin-top:10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid grey;
+	
+}
+
+.giticonb {
+	margin-left: 20px;
+    margin-right: 0px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0px;
+}
+
+.iniconb {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0px;
+}
+
+.stackiconb {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0px;
+	margin-right: 20px;
+}
+footer
+{
+	background-color: #777;
+	position:fixed;
+    text-align: center;
+	bottom: 0;
+	left:0;
+	width: 100%;
+    font-size:18px;
+    font-weight:bold;
+	border-top: 3px solid black;
+}

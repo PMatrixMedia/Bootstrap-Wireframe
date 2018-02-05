@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Play" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+</head>
+<body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-inverse"id="navbarmenu">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"></button>
+                <!--Navbar Header/Brand-->
+                <a class="navbar-brand" id="name" href="#">Chris Faison</a>
+
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right ">
+                    <div class="btn-group" id="mainnav">
+                        <button type="button" class="btn btn-success navbar-btn" id="aboutb"><a href="Index.html">About</a></button>
+
+                        <button type="button" class="btn btn-success navbar-btn" id="contactb"><a herf="contact.html">Contact</a></button>
+
+                        <button type="button" class="btn btn-success navbar-btn" id="portfoliob">Portfolio</button>
+                        <button type="button" class="btn btn-success navbar-btn dropdown-toggle" id="portfoliod" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Project 1</a></li>
+                            <li><a href="#">Project 2</a></li>
+                            <li><a href="#">Project 3</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                </ul>
+            </div>
+    </nav>
+    <div class="main-section" id="contactinput">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputName2">Name</label>
+                <input type="text" class="form-control" id="Nameform" placeholder="Your Name Here">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="Emailform" placeholder="Email">
+            </div>
+            <textarea class="form-control" rows="5" id="Emailform" placeholder="Message Text"></textarea>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+
+    <!--Fixed Position Contact Menu-->
+    <div class="sidebar">
+
+        <p class="sidetext">Connect with Me!</p>
+
+        <button class="giticonb"><a href="https://github.com/PMatrixMedia/HW-Wireframe"><img src="giticon.jpg" width="61" height="60" alt="github"></a></button>
+
+        <button class="iniconb"><a href="http://www.linkedin.com/in/christopher-faison-1b7b6948"><img src="inicon.jpg" width="61" height="60" alt="linkedin"></a></button>
+
+        <button class="stackiconb"><a href="https://stackoverflow.com/users/9005903/phase-matrix" target="_blank"><img src="stackicon.jpg" width="60" height="60" alt="stackoverflow"></a></button>
+
+    </div>
+    </div>
+    <footer>© copyright 2018 Chris Faison</footer>
+</body>
+</html>
