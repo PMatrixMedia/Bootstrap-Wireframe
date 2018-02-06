@@ -1,0 +1,76 @@
+﻿body 
+{
+    
+    max-width:412px;
+}
+#mnav 
+{
+
+    display: block;
+    top: 0px;
+    position: fixed;
+    width: 412px;
+}
+
+#middle 
+{
+    text-align: left;
+    margin-top: 41.5px;
+    display:block;
+    background-color:lightgray;
+    border: 3px solid black;
+    width:412px;
+    height:700px;
+}
+#cmiddle 
+{
+    text-align: left;
+    margin-top: 41.5px;
+    display: block;
+    background-color: lightgray;
+    border: 3px solid black;
+    width: 412px;
+    height: 500px;
+}
+#mobileform
+{
+    margin-top:10px;
+}
+
+#sidebar {
+   
+    background-color: lightgray;
+    align-content:center;
+    height: 169px;
+    border: 3px solid black;
+}
+
+.well-lg 
+{
+    align-content: center;
+    margin-left: 60px;
+}
+
+
+
+#sidetext
+{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 3px solid black;
+}
+   
+    
+    footer
+{
+    bottom:0;
+    border-top: 3px solid black;
+    text-align: center;
+    background-color: darkgray;
+}

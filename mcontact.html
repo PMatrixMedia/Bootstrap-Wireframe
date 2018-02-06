@@ -3,47 +3,26 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>mcontact v1.0</title>
+    <link rel="stylesheet" href="mstyle.css" />
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Play" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-
-</head>
 <body>
-    <!-- Static navbar -->
-    <nav class="navbar navbar-inverse" id="navbarmenu">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"></button>
-                <!--Navbar Header/Brand-->
-                <a class="navbar-brand" id="name" href="#">Chris Faison</a>
+    <div class="layout">
+        <nav class="navbar navbar-inverse" id="mnav">
+            <div class="btn-group">
+                <button type="button" class="btn btn-success navbar-btn" id="aboutm"><a href="mobile.html">About</a></button>
 
+                <button type="button" class="btn btn-success navbar-btn" id="contactm"><a href="contact.html">Contact</a></button>
+
+                <button type="button" class="btn btn-success navbar-btn" id="portfoliom">Portfolio</button>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right ">
-                    <div class="btn-group" id="mainnav">
-                        <button type="button" class="btn btn-success navbar-btn" id="aboutb"><a href="Index.html">About</a></button>
+        </nav>
+    </div>
 
-                        <button type="button" class="btn btn-success navbar-btn" id="contactb"><a herf="contact.html">Contact</a></button>
-
-                        <button type="button" class="btn btn-success navbar-btn" id="portfoliob">Portfolio</button>
-                        <button type="button" class="btn btn-success navbar-btn dropdown-toggle" id="portfoliod" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="caret"></span>
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Project 1</a></li>
-                            <li><a href="#">Project 2</a></li>
-                            <li><a href="#">Project 3</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                </ul>
-            </div>
-    </nav>
-    <div class="main-section" id="contactinput">
-        <form>
+    <div id="cmiddle">
+        <form id="mobileform">
             <div class="form-group">
                 <label for="exampleInputName2">Name</label>
                 <input type="text" class="form-control" id="Nameform" placeholder="Your Name Here">
@@ -52,11 +31,10 @@
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" class="form-control" id="Emailform" placeholder="Email">
             </div>
-            <textarea class="form-control" rows="5" id="Emailform" placeholder="Message Text"></textarea>
+            <textarea class="form-control" rows="4" id="Emailform" placeholder="Message Text"></textarea>
             <button type="submit" class="btn btn-default">Submit</button>
         </form>
     </div>
-
     <!--Fixed Position Contact Menu-->
     <div class="Panel panel-success" id="sidebar">
         <div class="panel-heading"
@@ -71,10 +49,14 @@
         </div>
     </div>
 
+
+
     <footer>© copyright 2018 Chris Faison</footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
