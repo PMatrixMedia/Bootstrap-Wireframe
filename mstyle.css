@@ -1,21 +1,39 @@
-﻿body 
-{
-    
-    max-width:412px;
+﻿body {
+    background-color: #777;
+    max-width: 700px;
+    background-image: url(marble.jpg);
 }
-#mnav 
+#mhead
 {
-
+color: white;
+}
+#mnav1 
+{
     display: block;
-    top: 0px;
-    position: fixed;
     width: 412px;
 }
 
-#middle 
+#mp-layout {
+    background-color: #777;
+    margin-top:20px;
+}
+
+h1 {
+    font-weight: bold;
+    border-bottom: 3px solid #ffffff;
+}
+
+#mportgal {
+    background-color: #777;
+}
+
+
+
+
+#mmiddle 
 {
     text-align: left;
-    margin-top: 41.5px;
+    margin-top: 51px;
     display:block;
     background-color:lightgray;
     border: 3px solid black;
@@ -32,13 +50,18 @@
     width: 412px;
     height: 500px;
 }
+#mtext
+{
+color: white;
+}
 #mobileform
 {
     margin-top:10px;
 }
 
-#sidebar {
-   
+#msidebar
+{
+    max-width:412px;
     background-color: lightgray;
     align-content:center;
     height: 169px;
